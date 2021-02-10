@@ -8,7 +8,6 @@ require (
 	github.com/jinzhu/copier v0.0.0-20190924061706-b57f9002281a
 	github.com/jinzhu/gorm v1.9.16
 	github.com/mrjones/oauth v0.0.0-20190623134757-126b35219450
-	github.com/qor/auth v0.0.0-20200821034127-11d4c974507d
 	github.com/qor/mailer v0.0.0-20180329083248-0555e49f99ac
 	github.com/qor/middlewares v0.0.0-20170822143614-781378b69454
 	github.com/qor/qor v0.0.0-20200729071734-d587cffbbb93
