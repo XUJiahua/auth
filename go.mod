@@ -1,4 +1,4 @@
-module github.com/qor/auth
+module github.com/XUJiahua/auth
 
 go 1.13
 
