@@ -74,6 +74,7 @@ var DefaultRegisterHandler = func(context *auth.Context) (*claims.Claims, error)
 		schema.Provider = authInfo.Provider
 		schema.UID = authInfo.UID
 		schema.Email = authInfo.UID
+		schema.EncryptedPassword = authInfo.EncryptedPassword
 		schema.RawInfo = req
 
 		currentUser, authInfo.UserID, err = context.Auth.UserStorer.Save(&schema, context)
