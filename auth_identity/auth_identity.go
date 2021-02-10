@@ -20,6 +20,7 @@ type Basic struct {
 	UID               string `gorm:"column:uid"`
 	EncryptedPassword string
 	UserID            string
+	Role              string // temporialy added
 	ConfirmedAt       *time.Time
 }
 
