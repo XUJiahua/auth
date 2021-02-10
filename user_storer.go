@@ -4,9 +4,9 @@ import (
 	"fmt"
 	"reflect"
 
+	"github.com/XUJiahua/auth/auth_identity"
+	"github.com/XUJiahua/auth/claims"
 	"github.com/jinzhu/copier"
-	"github.com/qor/auth/auth_identity"
-	"github.com/qor/auth/claims"
 	"github.com/qor/qor/utils"
 )
 

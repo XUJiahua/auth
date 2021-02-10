@@ -20,13 +20,13 @@ Here is an example:
 package main
 
 import (
-  "github.com/qor/auth"
-  "github.com/qor/auth/auth_identity"
-  "github.com/qor/auth/providers/github"
-  "github.com/qor/auth/providers/google"
-  "github.com/qor/auth/providers/password"
-  "github.com/qor/auth/providers/facebook"
-  "github.com/qor/auth/providers/twitter"
+  "github.com/XUJiahua/auth"
+  "github.com/XUJiahua/auth/auth_identity"
+  "github.com/XUJiahua/auth/providers/github"
+  "github.com/XUJiahua/auth/providers/google"
+  "github.com/XUJiahua/auth/providers/password"
+  "github.com/XUJiahua/auth/providers/facebook"
+  "github.com/XUJiahua/auth/providers/twitter"
   "github.com/qor/session/manager"
 
   _ "github.com/mattn/go-sqlite3"
@@ -178,7 +178,7 @@ In order to save more developer's effort, we have created some [auth themes](htt
 It usually has well designed pages, if you don't much custom requirements, you could just have few lines to make Auth system ready to use for your application, for example:
 
 ```go
-import "github.com/qor/auth_themes/clean"
+import "github.com/XUJiahua/auth_themes/clean"
 
 var Auth = clean.New(&auth.Config{
 	DB:         db.DB,

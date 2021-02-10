@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"net/http"
 
+	"github.com/XUJiahua/auth/claims"
 	jwt "github.com/dgrijalva/jwt-go"
-	"github.com/qor/auth/claims"
 	"github.com/qor/session"
 )
 

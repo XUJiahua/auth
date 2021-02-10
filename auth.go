@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/XUJiahua/auth/auth_identity"
+	"github.com/XUJiahua/auth/claims"
 	jwt "github.com/dgrijalva/jwt-go"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/auth/auth_identity"
-	"github.com/qor/auth/claims"
 	"github.com/qor/mailer"
 	"github.com/qor/mailer/logger"
 	"github.com/qor/redirect_back"
@@ -116,7 +116,7 @@ func New(config *Config) *Auth {
 		config.Render.RegisterViewPath(viewPath)
 	}
 
-	config.Render.RegisterViewPath("github.com/qor/auth/views")
+	config.Render.RegisterViewPath("github.com/XUJiahua/auth/views")
 
 	auth := &Auth{Config: config}
 

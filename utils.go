@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"time"
 
+	"github.com/XUJiahua/auth/claims"
 	"github.com/jinzhu/gorm"
-	"github.com/qor/auth/claims"
 	"github.com/qor/qor/utils"
 )
 
